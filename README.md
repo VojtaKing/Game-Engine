@@ -1,4 +1,4 @@
 Todo:
-make it modular
-particles
-shaders
+make it modular,
+particles,
+shaders,
