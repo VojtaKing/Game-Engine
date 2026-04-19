@@ -32,3 +32,14 @@ pub struct Collider {
     pub x: f32,
     pub y: f32,
 }
+#[derive(Component)]
+pub struct Solid;
+
+#[derive(Component)]
+pub struct Trigger;
+
+#[derive(Event)]
+pub struct CollisionEvent {
+    pub a: Entity,
+    pub b: Entity,
+}
