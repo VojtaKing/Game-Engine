@@ -58,7 +58,6 @@ pub fn collision_resolution(
         ],
     ) = combinations.fetch_next()
     {
-        // 🔒 musí mít OBA Solid
         if solid_a.is_none() || solid_b.is_none() {
             continue;
         }
